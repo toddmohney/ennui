@@ -1,13 +1,17 @@
 module Ennui
 
   def Ennui.sometimes?
-    rand = Random.new.rand(0..1000)
-    rand % 2 == 0
+    random_number % 2 == 0
   end
 
   def Ennui.who_cares?
-    rand = Random.new.rand(0..1000)
-    rand % 4 == 0
+    random_number % 4 == 0
+  end
+
+  private 
+
+  def Ennui.random_number
+    Random.new.rand(0..1000)
   end
 
 end
