@@ -12,10 +12,9 @@ Cucumber::Rake::Task.new(:features) do |t|
   t.cucumber_opts = "features --format pretty"
 end
 
-task :default => [ :gemspec, 
-                   :build, 
-                   :install, 
-                   :spec ]
+task :default => [ :spec ]
+
+task :full_build => [ :gemspec, :build, :install, :spec ]
 
 gemspec = eval(File.read(Dir["*.gemspec"].first))
 
