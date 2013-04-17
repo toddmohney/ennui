@@ -9,6 +9,7 @@ group :development, :test do
 end
 
 group :test do
+  gem 'awesome_print'
   gem 'cucumber', :require => false
   gem 'fivemat'
   gem 'guard-rspec'
