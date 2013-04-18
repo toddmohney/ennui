@@ -6,3 +6,28 @@ Ennui
 
 A gem for when you just don't care what gets executed
 
+Ennui provides a library of predicates which return true at various frequencies.
+These predicates are useful when you wish to introduce a bit of randomness or 
+apathy to your view elements, for example.
+
+Installing
+--------------
+    sudo gem install ennui
+
+Usage
+--------------
+```ruby
+require 'ennui'
+
+# sometimes this will print "meh", sometimes it won't
+puts "meh" if Ennui.sometimes?
+```
+
+Contributing
+--------------
+If you'd like to contribute to this project, fork this repo, make your changes,
+fixes, or additions, then send a pull request.
+
+License
+--------------
+This code is free to use under the terms of the MIT license.
