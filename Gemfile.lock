@@ -1,3 +1,8 @@
+PATH
+  remote: .
+  specs:
+    ennui (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -59,6 +64,7 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   cucumber
+  ennui!
   fivemat
   guard-rspec
   pry
