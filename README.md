@@ -16,7 +16,7 @@ Installing
 
 Usage
 --------------
-Ennui has both predicate methods and block methods to support just the ambivalent
+Ennui has both predicate methods and block methods to support just the unpredictable
 DSL you're looking for
 
 ```ruby
