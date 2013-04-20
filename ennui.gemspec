@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |s|
   s.name              = "ennui"
-  s.version           = "0.0.1"
+  s.version           = "0.0.2"
   s.platform          = Gem::Platform::RUBY
   s.authors           = ["Todd Mohney"]
   s.email             = ["toddmohney@gmail.com"]

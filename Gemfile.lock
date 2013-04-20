@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ennui (0.0.1)
+    ennui (0.0.2)
 
 GEM
   remote: https://rubygems.org/
