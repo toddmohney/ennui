@@ -18,9 +18,13 @@ Usage
 --------------
 ```ruby
 require 'ennui'
+include Ennui
 
 # sometimes this will print "meh", sometimes it won't
-puts "meh" if Ennui.sometimes?
+puts "meh" if sometimes?
+
+# sometimes this will yield to the block, sometimes it won't
+sometimes { puts "whatever" }
 ```
 
 Contributing
